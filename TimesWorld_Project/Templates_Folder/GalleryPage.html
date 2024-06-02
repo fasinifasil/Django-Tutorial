@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="GalleryDiv">
+
+
+<div class="row p-4">
+  <div class="col-sm-3">
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{% static 'images/pic1.jpg' %}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">story reading</h5>
+    <p class="card-text">Short stories are great teaching tools that can fill a variety of needs. You might teach stories in conjunction with major course</p>
+  </div>
+</div>
+</div>
+    <div class="col-sm-3">
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{% static 'images/pic2.jpg' %}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Computer lab</h5>
+    <p class="card-text"> provide a time and space to develop skills not directly related to classroom curriculum. These skills can be first learned in the lab.</p>
+  </div>
+</div>
+</div>
+  <div class="col-sm-3">
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{% static 'images/pic3.jpg' %}"alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">School library</h5>
+    <p class="card-text"> a critical knowledge hub where students develop reading habits and gain valuable lifelong skills. It is necessary . .</p>
+  </div>
+</div>
+</div>
+  <div class="col-sm-3">
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{% static 'images/pic4.jpg' %}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Arts and crafts education</h5>
+    <p class="card-text">helps improve a child's creativity, motor skills, and imagination. While the child is growing up, arts and crafts become an interesting activity..</p>
+  </div>
+
+</div>
+</div>
+</div>
+</div>
+
+{% endblock %}

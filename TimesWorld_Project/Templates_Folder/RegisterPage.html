@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+{%load crispy_forms_tags %}
+{% load crispy_forms_filters %}
+
+
+
+<form action="" method="post">
+    {% csrf_token %}
+    {{register|crispy}}
+<br>
+    <button class="btn btn-primary mb-4" type="submit">SUBMIT</button>
+</form>
+
+{% endblock %}

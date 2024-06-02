@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<H1>Welcome To admin DashBoard</H1>
+{% if user.is_authenticated %}
+Hello {{user.username}}
+<a class="btn btn-danger" href="logout">LogOut</a>
+
+{% endif %}
+
+{% endblock %}

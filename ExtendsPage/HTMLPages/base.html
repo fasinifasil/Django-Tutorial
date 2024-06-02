@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .head_Div{
+        height:100px;
+        width:100%;
+        background-color:cyan;
+        }
+        .main_Div{
+        height:600px;
+        width:100%;
+        }
+        .footer_Div{
+        height:100px;
+        width:100%;
+        background-color:gray;
+        }
+        li{
+        float:left;
+        text-format:uppercase;
+        list-style:none;
+        padding-left:40px;
+        padding-top:20px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="head_Div">
+<li>Home</li>
+<li>Gallery</li>
+<li>Conatct</li>
+
+
+</div>
+<div class="main_Div">
+{% block content %}
+    {% endblock %}
+
+</div>
+<div class="footer_Div">
+
+</div>
+
+</body>
+</html>
